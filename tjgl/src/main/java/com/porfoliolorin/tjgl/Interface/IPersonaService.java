@@ -1,10 +1,14 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
 package com.porfoliolorin.tjgl.Interface;
 
 import com.porfoliolorin.tjgl.Entity.Persona;
 import java.util.List;
 
 public interface IPersonaService {
-    //traer una lista de perosna
+    //Traer una persona
     public List<Persona> getPersona();
     
     //Guardar un objeto de tipo Persona
@@ -15,4 +19,5 @@ public interface IPersonaService {
     
     //Buscar una persona por ID
     public Persona findPersona(Long id);
+    
 }
